@@ -59,7 +59,8 @@ The cards are valued in the order:
 
 If two players have the same ranked hands then the rank made up of the highest value wins; for example, a pair of eights beats a pair of fives (see example 1 below). But if two ranks tie, for example, both players have a pair of queens, then highest cards in each hand are compared (see example 4 below); if the highest cards tie then the next highest cards are compared, and so on.
 
-As an example, consider the five hands dealt to two players in the file `pokerhands.png` in the `resources` directory.
+As an example, consider the five hands dealt to two players in the file `pokerhands.png` in the `resources` directory:
+![poker hands](https://raw.githubusercontent.com/Claim-Academy/Project1-Java022815/master/src/resources/pokerhands.png)
 
 **Part 1:** The file `poker.txt` in the `resources` directory. contains one-thousand random hands dealt to two players. Each line of the file contains ten cards (separated by a single space): the first five are Player 1's cards and the last five are Player 2's cards. You can assume that all hands are valid (no invalid characters or repeated cards), each player's hand is in no specific order, and in each hand there is a clear winner.
 How many hands does player 1 win? Print the answer to the console and **save your class in the `answers` directory as `p3a.java`.**
