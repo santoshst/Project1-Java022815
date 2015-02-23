@@ -37,3 +37,40 @@ Use the `longnums.txt` file in the `resources` directory for this problem.
 **Save your `.java` file in the `answers` directory as `p2.java`.**
 
 ------------------------
+
+
+###Poker Hands
+
+In poker, a hand consists of five cards and are ranked, from lowest to highest, in the following way:
+
++ **High Card**: Highest value card.
++ **One Pair**: Two cards of the same value.
++ **Two Pairs**: Two different pairs.
++ **Three-of-a-kind**: Three cards of the same value.
++ **Straight**: All cards are consecutive values.
++ **Flush**: All cards of the same suit.
++ **Full House**: Three of a kind and a pair.
++ **Four-of-a-kind**: Four cards of the same value.
++ **Straight Flush**: Four cards of the same value.
++ **Royal Flush**: Four cards of the same value.
+
+The cards are valued in the order:
+2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King, Ace.
+
+If two players have the same ranked hands then the rank made up of the highest value wins; for example, a pair of eights beats a pair of fives (see example 1 below). But if two ranks tie, for example, both players have a pair of queens, then highest cards in each hand are compared (see example 4 below); if the highest cards tie then the next highest cards are compared, and so on.
+
+As an example, consider the five hands dealt to two players in the file `pokerhands.png` in the `resources` directory.
+
+**Part 1:** The file `poker.txt` in the `resources` directory. contains one-thousand random hands dealt to two players. Each line of the file contains ten cards (separated by a single space): the first five are Player 1's cards and the last five are Player 2's cards. You can assume that all hands are valid (no invalid characters or repeated cards), each player's hand is in no specific order, and in each hand there is a clear winner.
+How many hands does player 1 win? Print the answer to the console and save your class in the `answers` directory as `p3a.java`. 
+
+**Part 2:** Imagine that there was a third player. Generate a possible hand for the third player given a standard deck with no Jokers, and given that no duplicate cards exist in the deck, and given the cards that Players 1 and 2 already have in their hands (i.e. each new hand should be generated from decks that do not contain the cards held in Player 1's or Player 2's hands). Add Player 3's cards to `poker.txt`, and save the new file as `pokernew.txt` in the `answers` directory. Save your code for this section as `p3b.java`.
+
+**Part 3:** If we look at `pokernew.txt` instead of `poker.txt`, how many hands does player1 win now? Modify `p3a.java` from Part 1 to ask the user for an input (ask if there are 2 or 3 players in the game). Print the number of games Player 1 wins in each situation to the console.
+
+------------------------------
+
+
+
+
+
