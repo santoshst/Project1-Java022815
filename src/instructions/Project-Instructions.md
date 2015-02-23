@@ -9,15 +9,15 @@ These problems will not be formally graded, but you might be asked to share your
 -------------
 
 
-##Name Scores of an alphabetized list
+###Name Scores of an alphabetized list
 
-Use the names.txt file, a 46K text file containing over five-thousand first names found in the resources directory. 
-**Part 1:**Begin by sorting the list into alphabetical order. Save this new file as p1aNames.txt in the answers directory.
+Use the `names.txt` file, a 46K text file containing over five-thousand first names found in the `resources` directory. 
+**Part 1:**Begin by sorting the list into alphabetical order. Save this new file as `p1aNames.txt` in the `answers` directory.
 
-**Part 2:** Using p1aNames.txt, take the alphabetical value for each name, and multiply this value by its alphabetical position in the list to obtain a name score.
+**Part 2:** Using `p1aNames.txt`, take the alphabetical value for each name, and multiply this value by its alphabetical position in the list to obtain a name score.
 For example, when the list is sorted into alphabetical order, COLIN, which is worth 3 + 15 + 12 + 9 + 14 = 53, is the 938th name in the list. So, COLIN would obtain a score of 938 × 53 = 49714.
-Save the list of all name scores as p1bNames.txt.
+Save the list of all name scores as `p1bNames.txt`.
 
-**Part 3:**What is the total of all the name scores in the file? Print out this total to the console in your .java file.
+**Part 3:**What is the total of all the name scores in the file? Print out this total to the console in your `.java` file.
 
-**Save your .java file in the answers directory as p1.java.**
+**Save your `.java` file in the `answers` directory as `p1.java`.**
