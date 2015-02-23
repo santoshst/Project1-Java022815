@@ -84,6 +84,12 @@ How many hands does player 1 win? Print the answer to the console and **save you
 
 --------------------------------
 
+###Counting Minutes
+
+Build a class that prompts a user to input some time in 12 hour format (e.g. 9:00am), then compares that time to the actual current time, then prints the difference (in minutes) to the console. For example, if a user inputs `9:16am` and it's really 9:10am, the console would read `-6 minutes`. If the user inputs `9:16am` and it's really 9:20am, the console should read `+4 minutes`. 
+
+**Save your code as `p5.java` in the `answers` directory.**
+
 
 
 
