@@ -12,6 +12,7 @@ These problems will not be formally graded, but you might be asked to share your
 ###Name Scores of an alphabetized list
 
 Use the `names.txt` file, a 46K text file containing over five-thousand first names found in the `resources` directory. 
+
 **Part 1:**Begin by sorting the list into alphabetical order. Save this new file as `p1aNames.txt` in the `answers` directory.
 
 **Part 2:** Using `p1aNames.txt`, take the alphabetical value for each name, and multiply this value by its alphabetical position in the list to obtain a name score.
