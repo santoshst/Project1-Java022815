@@ -22,3 +22,18 @@ Save the list of all name scores as `p1bNames.txt`.
 **Part 3:**What is the total of all the name scores in the file? Print out this total to the console in your `.java` file.
 
 **Save your `.java` file in the `answers` directory as `p1.java`.**
+
+---------------------
+
+
+###Large sums
+
+Use the `longnums.txt` file in the `resources` directory for this problem.
+
+**Part 1:** Build an array of the 100 numbers (each 50 digits long) contained in `longnum.txt`, and sort them according to size (smallest numbers first). Save this file as `p2a.txt` in the `answers` directory.
+
+**Part 2:** Find the first 10 digits of the sum of all 100 numbers, and print the answer to the console.
+
+**Save your `.java` file in the `answers` directory as `p2.java`.
+
+------------------------
