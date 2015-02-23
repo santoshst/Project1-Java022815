@@ -34,6 +34,6 @@ Use the `longnums.txt` file in the `resources` directory for this problem.
 
 **Part 2:** Find the first 10 digits of the sum of all 100 numbers, and print the answer to the console.
 
-**Save your `.java` file in the `answers` directory as `p2.java`.
+**Save your `.java` file in the `answers` directory as `p2.java`.**
 
 ------------------------
