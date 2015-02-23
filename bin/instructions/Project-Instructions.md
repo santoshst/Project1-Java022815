@@ -62,11 +62,11 @@ If two players have the same ranked hands then the rank made up of the highest v
 As an example, consider the five hands dealt to two players in the file `pokerhands.png` in the `resources` directory.
 
 **Part 1:** The file `poker.txt` in the `resources` directory. contains one-thousand random hands dealt to two players. Each line of the file contains ten cards (separated by a single space): the first five are Player 1's cards and the last five are Player 2's cards. You can assume that all hands are valid (no invalid characters or repeated cards), each player's hand is in no specific order, and in each hand there is a clear winner.
-How many hands does player 1 win? Print the answer to the console and save your class in the `answers` directory as `p3a.java`. 
+How many hands does player 1 win? Print the answer to the console and **save your class in the `answers` directory as `p3a.java`.**
 
-**Part 2:** Imagine that there was a third player. Generate a possible hand for the third player given a standard deck with no Jokers, and given that no duplicate cards exist in the deck, and given the cards that Players 1 and 2 already have in their hands (i.e. each new hand should be generated from decks that do not contain the cards held in Player 1's or Player 2's hands). Add Player 3's cards to `poker.txt`, and save the new file as `pokernew.txt` in the `answers` directory. Save your code for this section as `p3b.java`.
+**Part 2:** Imagine that there was a third player. Generate a possible hand for the third player given a standard deck with no Jokers, and given that no duplicate cards exist in the deck, and given the cards that Players 1 and 2 already have in their hands (i.e. each new hand should be generated from decks that do not contain the cards held in Player 1's or Player 2's hands). **Add Player 3's cards to `poker.txt`, and save the new file as `pokernew.txt` in the `answers` directory. Save your code for this section as `p3b.java`.**
 
-**Part 3:** If we look at `pokernew.txt` instead of `poker.txt`, how many hands does player1 win now? Modify `p3a.java` from Part 1 to ask the user for an input (ask if there are 2 or 3 players in the game). Print the number of games Player 1 wins in each situation to the console.
+**Part 3:** If we look at `pokernew.txt` instead of `poker.txt`, how many hands does player1 win now? Modify `p3a.java` from Part 1 to ask the user for an input (ask if there are 2 or 3 players in the game). Print the number of games Player 1 wins in each situation to the console. **Save this modified code as `p3c.java` in the `answers` directory.**
 
 ------------------------------
 
