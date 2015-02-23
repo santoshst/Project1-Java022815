@@ -1,7 +1,7 @@
 #Project 1
-##5 Problems from Project Euler
+##5 Problems from Project Euler and CoderByte
 
-For this weekly assignment, you will be working through a set of progressively more difficult problems from Project Euler (http://projecteuler.net).
+For this weekly assignment, you will be working through a set of problems from Project Euler (http://projecteuler.net) or CoderByte (http://coderbyte.com).
 Each problem will build upon one of the concepts covered in class. Collaboration is encouraged, and full understanding of the underlying concepts is required.
 
 These problems will not be formally graded, but you might be asked to share your solutions with the class.
@@ -60,7 +60,10 @@ The cards are valued in the order:
 If two players have the same ranked hands then the rank made up of the highest value wins; for example, a pair of eights beats a pair of fives (see example 1 below). But if two ranks tie, for example, both players have a pair of queens, then highest cards in each hand are compared (see example 4 below); if the highest cards tie then the next highest cards are compared, and so on.
 
 As an example, consider the five hands dealt to two players in the file `pokerhands.png` in the `resources` directory:
+
+
 ![poker hands](https://raw.githubusercontent.com/Claim-Academy/Project1-Java022815/master/src/resources/pokerhands.png)
+
 
 **Part 1:** The file `poker.txt` in the `resources` directory. contains one-thousand random hands dealt to two players. Each line of the file contains ten cards (separated by a single space): the first five are Player 1's cards and the last five are Player 2's cards. You can assume that all hands are valid (no invalid characters or repeated cards), each player's hand is in no specific order, and in each hand there is a clear winner.
 How many hands does player 1 win? Print the answer to the console and **save your class in the `answers` directory as `p3a.java`.**
@@ -70,6 +73,17 @@ How many hands does player 1 win? Print the answer to the console and **save you
 **Part 3:** If we look at `pokernew.txt` instead of `poker.txt`, how many hands does player1 win now? Modify `p3a.java` from Part 1 to ask the user for an input (ask if there are 2 or 3 players in the game). Print the number of games Player 1 wins in each situation to the console. **Save this modified code as `p3c.java` in the `answers` directory.**
 
 ------------------------------
+
+###Consecutive Numbers
+
+
+**Part 1:** Build your own array of all of the prime numbers up to 100, and store that array in a text file `primearray.txt` in the `answers` directory. **Save your code as `p4a.java` in the `answers` directory**.
+
+**Part 2:** Have the class ` Consecutive` take an array of integers from `primearr.txt` and return the minimum number of integers needed to make the contents of the array consecutive from the lowest number to the highest number. For example: If `arr` contains `[4, 8, 6]` then the output should be 2, because two numbers need to be added to the array (5 and 7) to make it a consecutive array of numbers from 4 to 8. Print out the answers for arrays of the first 5 primes, the first 10 primes, the first 50 primes, and the first 100 prime numbers on separate lines.
+**Save your code as `p4b.java` in the `answers` directory.**
+
+--------------------------------
+
 
 
 
