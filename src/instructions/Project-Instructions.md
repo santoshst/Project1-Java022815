@@ -1,5 +1,5 @@
 #Project 1
-##8 Problems from Project Euler and CoderByte
+##7 Problems from Project Euler and CoderByte
 
 For this weekly assignment, you will be working through a set of problems from Project Euler (http://projecteuler.net) or CoderByte (http://coderbyte.com).
 Each problem will build upon one of the concepts covered in class. Collaboration is encouraged, and full understanding of the underlying concepts is required.
@@ -108,12 +108,6 @@ How many hands does player 1 win? Print the answer to the console and **save you
 **Save your code as `p7b.java` in the `answers` directory.**
 
 --------------------------------
-
-###Counting Minutes
-
-Build a class that prompts a user to input some time in 12 hour format (e.g. 9:00am), then compares that time to the actual current time, then prints the difference (in minutes) to the console. For example, if a user inputs `9:16am` and it's really 9:10am, the console would read `+6 minutes`. If the user inputs `9:16am` and it's really 9:20am, the console should read `-4 minutes`.
-
-**Save your code as `p8.java` in the `answers` directory.**
 
 
 
